@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:#333;
+	background: #ffc0cb;
+
+}
+.love,.yes,.yes1,.yes2,.yes3,.yes4,.yesg,.yes6,.yes7,.yes8,.yes9,.no,.nos,.noo{padding-top: 15%;
+		
+		}
+.love span{color:red;}
+h2{font-size: 72px;margin-bottom: 20px;}
+h3{font-size: 30px;margin-bottom: 70px;}
+a{font-size: 24px;text-decoration: none;padding: 5px 10px;
+	margin-top: 20px;border:3px solid #6200ff; border-radius: 10px;}
+#no{color:red; background: #eee;margin-right: 50px;}
+#noo{color:red; background: #ffc0cb;margin-right: 50px;border:3px solid #ffc0cb;}
+#nos{color:#ff0000; background: #eee;margin-right: 50px;}
+#yes{color:#ff0000;background: #eee;}
+#yes1{color:#ff0000;background: #eee;}
+#yes2{color:#ff0000;background: #eee;}
+#yes3{color:#ff0000;background: #eee;}
+#yes4{color:#ff0000;background: #eee;}
+#yesg{color:green;background: #eee;margin-right: 50px;}
+#yes6{color:green;background: #eee;}
+#yes7{color:#ff0000;background: #eee;}
+#yes8{color:#ff0000;background: #eee;}
+#yes9{color:green;background: #eee;}
+
+.yes img{
+	height: 30px;
+	width: 30px;
+	animation: image 4s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
